@@ -18,7 +18,7 @@ namespace Beverage
             var Ccal = quantity / 100 * cal;
             Console.WriteLine($"{quantity}ml {product}:");
             Console.WriteLine($"{Ccal}kcal, {Csuger}g sugars");
-			Console.WriteLine("War");
-        }
+			Console.WriteLine("About the conflict");
+			Console.WriteLine("War");        }
     }
 }
