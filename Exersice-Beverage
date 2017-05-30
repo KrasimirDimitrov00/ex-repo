@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Beverage
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var product = Console.ReadLine();
+            var quantity = double.Parse(Console.ReadLine());
+            var cal = double.Parse(Console.ReadLine());
+            var suger = double.Parse(Console.ReadLine());
+            var Csuger = quantity / 100 * suger;
+            var Ccal = quantity / 100 * cal;
+            Console.WriteLine($"{quantity}ml {product}:");
+            Console.WriteLine($"{Ccal}kcal, {Csuger}g sugars");
+        }
+    }
+}
